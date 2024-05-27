@@ -236,7 +236,7 @@ footer a {
 }
 
 /* Desktop */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   #titolo1 {
     display: flex;
     align-items: center;
@@ -244,13 +244,16 @@ footer a {
   table {
     margin-top: 4em;
     margin-bottom: 5em;
-    width: 50em;
+    width: 55em;
   }
   #sezione1 {
     display: flex;
   }
-  #user_email {
-    padding-right: 55px;
+  section {
+    width: 50%;
+  }
+  iframe {
+    width: 50%;
   }
   #sezione2 {
     display: flex;
