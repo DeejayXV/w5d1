@@ -260,8 +260,8 @@ footer a {
     justify-content: space-between;
   }
   #sezione2 div a {
-    display: block;
-    width: 20em;
+    display: flex;
+    width: 300px;
   }
 }
 @media print {
