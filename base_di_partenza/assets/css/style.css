@@ -264,3 +264,12 @@ footer a {
     width: 20em;
   }
 }
+@media print {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  img {
+    display: none;
+  }
+}
